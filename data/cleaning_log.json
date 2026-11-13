@@ -1,0 +1,50 @@
+[
+  {
+    "step": "Raw rows loaded",
+    "removed": 0,
+    "rows_after": 664154
+  },
+  {
+    "step": "Drop: Quantity missing",
+    "removed": 6,
+    "rows_after": 664148
+  },
+  {
+    "step": "Drop: Quantity <= 0",
+    "removed": 5,
+    "rows_after": 664143
+  },
+  {
+    "step": "Drop: NetPrice <= 0",
+    "removed": 5,
+    "rows_after": 664138
+  },
+  {
+    "step": "Drop: UnitPrice < 0.01",
+    "removed": 5,
+    "rows_after": 664133
+  },
+  {
+    "step": "Drop: exact duplicate lines",
+    "removed": 6213,
+    "rows_after": 657920
+  },
+  {
+    "step": "Flag (kept): NetPrice > UnitPrice",
+    "removed": 0,
+    "rows_after": 657920,
+    "affected": 0
+  },
+  {
+    "step": "Fill: City missing -> UNKNOWN",
+    "removed": 0,
+    "rows_after": 657920,
+    "affected": 6002
+  },
+  {
+    "step": "Fill: Category missing -> UNKNOWN",
+    "removed": 0,
+    "rows_after": 657920,
+    "affected": 63
+  }
+]

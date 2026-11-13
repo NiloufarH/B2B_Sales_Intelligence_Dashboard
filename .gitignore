@@ -1,0 +1,22 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Excel lock files
+~$*.xlsx
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Tests
+.pytest_cache/
+
+# Local test files (kept off GitHub)
+tests/
+pytest.ini
+requirements-dev.txt

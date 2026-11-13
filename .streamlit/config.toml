@@ -1,0 +1,23 @@
+# Mirrors the base tokens in src/theme.py (tests/test_app.py checks they match).
+[theme]
+base = "light"
+primaryColor = "#6C9BCF"
+backgroundColor = "#FAF8F5"
+secondaryBackgroundColor = "#F4F1EC"
+textColor = "#2F2E2B"
+borderColor = "#ECE8E1"
+dataframeHeaderBackgroundColor = "#F7F5F1"
+greenColor = "#6DBE8B"
+redColor = "#E58C8A"
+baseRadius = "10px"
+font = "sans serif"
+
+[theme.sidebar]
+backgroundColor = "#F2F6FA"
+secondaryBackgroundColor = "#FFFFFF"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
